@@ -1,0 +1,436 @@
+#canvas {
+  position: relative;
+  z-index: 1; }
+
+.banner {
+  padding-top: 1.1rem;
+  width: 100%;
+  background-color: #030303; }
+  .banner h1 {
+    font-size: 0.7rem;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 2.2rem; }
+  .banner h3 {
+    font-size: 0.24rem;
+    letter-spacing: 0.024rem;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 0.6rem; }
+  .banner h4 {
+    font-size: 0.36rem;
+    letter-spacing: 0.072rem;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 0.76rem; }
+  .banner h5 {
+    font-size: 0.24rem;
+    letter-spacing: 0.043rem;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 0.36rem; }
+  .banner #demo {
+    margin-top: 1rem; }
+  .banner #demo1 {
+    overflow: hidden;
+    height: 0.88rem;
+    line-height: 0.88rem;
+    color: #fff; }
+    .banner #demo1 li {
+      display: flex;
+      justify-content: center;
+      font-size: 0.18rem;
+      font-weight: 300;
+      text-align: left;
+      color: #ffffff; }
+    .banner #demo1 a {
+      font-size: 0.22rem;
+      color: #46fafc;
+      text-decoration: none;
+      margin: 0 0.1rem 0 0.3rem; }
+    .banner #demo1 .new {
+      font-size: 0.2rem;
+      font-weight: normal;
+      color: #46fafc; }
+  .banner .down {
+    width: 0.5rem;
+    height: 0.5rem;
+    position: relative;
+    margin: 0.9rem auto 0.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .banner .down .down_con {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      opacity: 0.46;
+      background-color: #ffffff;
+      position: absolute;
+      top: 0;
+      left: 0; }
+    .banner .down a {
+      width: 0.2rem;
+      height: 0.1rem;
+      display: block;
+      background: url("../images/more.png") center/cover no-repeat;
+      z-index: 1111; }
+
+.doing {
+  width: 100%; }
+  .doing .container {
+    padding-top: 1.04rem !important;
+    padding-bottom: 0.5rem !important; }
+    .doing .container h1 {
+      font-family: "Microsoft YaHei";
+      font-size: 0.40rem;
+      line-height: 0.65;
+      letter-spacing: 0.032rem;
+      text-align: center;
+      color: #0b0b0b;
+      font-weight: normal; }
+    .doing .container p {
+      font-size: 0.16rem;
+      font-weight: 300;
+      line-height: 1.62;
+      text-align: center;
+      color: #000000;
+      margin-top: 0.3rem; }
+  .doing .account {
+    margin-top: 1.2rem;
+    display: flex;
+    justify-content: center; }
+    .doing .account .row {
+      width: 100%;
+      display: flex;
+      justify-content: center; }
+    .doing .account .thumbnail {
+      border: 0; }
+      .doing .account .thumbnail p, .doing .account .thumbnail h3 {
+        margin: 0; }
+      .doing .account .thumbnail h3 {
+        font-size: 0.4rem;
+        line-height: 0.65;
+        text-align: center;
+        color: #161515; }
+      .doing .account .thumbnail p {
+        font-size: 0.14rem;
+        font-weight: 300;
+        line-height: 1.85;
+        text-align: center;
+        color: #000000;
+        margin-top: 0.5rem; }
+
+.case {
+  width: 100%; }
+  .case .row {
+    margin: 0; }
+  .case .thumbnail {
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    margin: 0;
+    background: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 0.53rem 0.6rem !important;
+    position: relative;
+    min-height: 3rem; }
+    .case .thumbnail .display {
+      padding: 0;
+      border: 0;
+      border-radius: 0;
+      margin: 0;
+      background: none;
+      text-decoration: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      overflow: hidden;
+      box-sizing: border-box;
+      padding: 0.53rem 0.6rem !important; }
+    .case .thumbnail p {
+      text-align: center;
+      font-size: 0.14rem;
+      line-height: 1.86;
+      text-align: center;
+      color: #fefefe;
+      margin-bottom: 0.68rem; }
+    .case .thumbnail h3 {
+      margin-bottom: 0.21rem;
+      font-size: 0.24rem;
+      line-height: 1.08;
+      text-align: center;
+      color: #ffffff; }
+    .case .thumbnail .pic {
+      width: 0.71rem;
+      height: 0.59rem;
+      margin-bottom: 0.67rem;
+      background: url("../images/computer.png") center/cover no-repeat; }
+    .case .thumbnail .border {
+      width: 0.3rem;
+      height: 0.04rem;
+      background: #fff;
+      margin-bottom: 0.44rem; }
+    .case .thumbnail .more {
+      font-size: 0.14rem;
+      line-height: 1.85;
+      text-align: center;
+      color: #ffffff;
+      text-transform: uppercase; }
+    .case .thumbnail .more_down {
+      width: 0.84rem;
+      height: 0.1rem;
+      background-color: #fefcfc;
+      background: url("../images/more.png") center/contain no-repeat;
+      margin-top: 0.16rem; }
+    .case .thumbnail .display {
+      position: absolute;
+      top: 0; }
+  .case .thumbnail.active {
+    overflow: visible; }
+  .case .col-md-3 {
+    margin: 0;
+    padding: 0;
+    min-height: 5.3rem;
+    padding-top: 1.5rem; }
+
+.project .col-md-3 {
+  margin: 0;
+  padding: 0;
+  padding-top: 0 !important; }
+
+.project .thumbnail {
+  height: 4.55rem; }
+
+.project h1 {
+  font-family: "Microsoft YaHei";
+  font-size: 0.40rem;
+  line-height: 0.65;
+  letter-spacing: 0.032rem;
+  text-align: center;
+  color: #0b0b0b;
+  font-weight: normal;
+  margin-top: 0.86rem; }
+
+.project p:nth-child(2) {
+  font-size: 0.16rem;
+  font-weight: 300;
+  line-height: 1.62;
+  text-align: center;
+  color: #000000;
+  margin-top: 0.3rem;
+  margin-bottom: 0.86rem; }
+
+.project p:nth-child(3) {
+  font-size: 0.16rem;
+  line-height: 2.25;
+  text-align: center;
+  color: #333333;
+  margin-bottom: 1.11rem; }
+
+.process {
+  width: 100%;
+  position: relative;
+  background: url("../images/process.png") center/cover no-repeat; }
+  .process .shaow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #000;
+    opacity: 0.6;
+    z-index: 1; }
+  .process .container {
+    position: relative;
+    z-index: 2; }
+  .process h1 {
+    margin-top: 1.47rem;
+    color: #fff !important; }
+  .process p {
+    margin-top: 1rem;
+    margin-bottom: 1.82rem;
+    color: #fff !important; }
+
+.process_main {
+  padding-bottom: 1.3rem; }
+  .process_main img {
+    width: 80%;
+    margin: 0 auto;
+    display: block; }
+
+.concact {
+  display: none;
+  position: fixed;
+  right: 0;
+  top: 50%;
+  margin-top: -1.25rem;
+  z-index: 9999999999; }
+  .concact .right {
+    width: 0.5rem;
+    position: relative;
+    height: 2.52rem; }
+  .concact .shaow {
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: 0.6;
+    border-radius: 0.08rem;
+    position: absolute;
+    z-index: 1; }
+  .concact .qq, .concact .wechat, .concact .phone {
+    width: 100% !important;
+    position: relative; }
+    .concact .qq .show, .concact .wechat .show, .concact .phone .show {
+      display: none !important;
+      width: auto;
+      position: absolute;
+      right: 0.5rem;
+      color: #fff; }
+      .concact .qq .show.hover, .concact .wechat .show.hover, .concact .phone .show.hover {
+        display: block !important; }
+    .concact .qq .message, .concact .wechat .message, .concact .phone .message {
+      position: relative;
+      padding: 0.2rem 0.18rem 0.18rem 0.18rem;
+      box-sizing: border-box;
+      z-index: 2;
+      width: auto !important; }
+      .concact .qq .message p, .concact .wechat .message p, .concact .phone .message p {
+        min-width: 1.5rem; }
+      .concact .qq .message img, .concact .wechat .message img, .concact .phone .message img {
+        width: 1.16rem !important; }
+    .concact .qq button, .concact .wechat button, .concact .phone button {
+      background-color: #12bac4;
+      color: #fff;
+      border: none; }
+    .concact .qq .btn-default.active.focus, .concact .qq .btn-default.active:focus, .concact .qq .btn-default.active:hover, .concact .qq .btn-default:active.focus, .concact .qq .btn-default:active:focus, .concact .qq .btn-default:active:hover, .concact .qq .open > .dropdown-toggle.btn-default.focus, .concact .qq .open > .dropdown-toggle.btn-default:focus, .concact .qq .open > .dropdown-toggle.btn-default:hover, .concact .wechat .btn-default.active.focus, .concact .wechat .btn-default.active:focus, .concact .wechat .btn-default.active:hover, .concact .wechat .btn-default:active.focus, .concact .wechat .btn-default:active:focus, .concact .wechat .btn-default:active:hover, .concact .wechat .open > .dropdown-toggle.btn-default.focus, .concact .wechat .open > .dropdown-toggle.btn-default:focus, .concact .wechat .open > .dropdown-toggle.btn-default:hover, .concact .phone .btn-default.active.focus, .concact .phone .btn-default.active:focus, .concact .phone .btn-default.active:hover, .concact .phone .btn-default:active.focus, .concact .phone .btn-default:active:focus, .concact .phone .btn-default:active:hover, .concact .phone .open > .dropdown-toggle.btn-default.focus, .concact .phone .open > .dropdown-toggle.btn-default:focus, .concact .phone .open > .dropdown-toggle.btn-default:hover {
+      background-color: #12bac4;
+      color: #fff;
+      border: none; }
+  .concact .qq {
+    width: 0.28rem;
+    height: 0.3rem;
+    background: url("../images/qq.png") center/contain no-repeat; }
+  .concact .phone {
+    width: 0.27rem;
+    height: 0.3rem;
+    background: url("../images/call.png") center/contain no-repeat; }
+  .concact .wechat {
+    width: 0.31rem;
+    height: 0.25rem;
+    background: url("../images/wechat.png") center/contain no-repeat; }
+  .concact ul {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; }
+
+.showView {
+  width: 5rem;
+  height: 3.6rem;
+  position: fixed;
+  right: 2.7rem;
+  bottom: 2rem;
+  z-index: 9999;
+  display: none; }
+  .showView .concac_servy {
+    width: 100%;
+    height: 100%;
+    position: relative; }
+    .showView .concac_servy img {
+      width: 100%;
+      height: 100%;
+      position: absolute; }
+  .showView .close {
+    width: 0.5rem;
+    height: 0.5rem;
+    position: absolute;
+    top: 0.5rem;
+    right: 0.1rem;
+    color: rgba(105, 104, 104, 0.99);
+    z-index: 99999; }
+
+.case .col-md-3 {
+  min-height: 5.3rem; }
+
+.case .thumbnail {
+  min-height: 2.8rem; }
+
+@media (min-width: 300px) {
+  .container {
+    width: 100%;
+    padding: 0 0.24rem !important; }
+  .project .container p:nth-child(3) {
+    width: 90% !important;
+    margin: 0 auto;
+    margin-bottom: 1rem !important; }
+  button {
+    padding: 0.1rem 0.3rem; }
+  .showView {
+    right: 0.7rem; } }
+
+@media (min-width: 768px) {
+  .container {
+    width: 775px; }
+  .navbar-nav {
+    display: block; }
+  .project .container p:nth-child(3) {
+    width: 60% !important;
+    margin: 0 auto;
+    margin-bottom: 1rem !important; }
+  .col-md-3:nth-child(3) {
+    width: 100% !important; }
+  .col-md-3:nth-child(4) {
+    width: 100% !important; }
+  .case .col-md-3 {
+    min-height: 5.3rem; }
+  .showView {
+    right: 2.7rem; } }
+
+@media (min-width: 1024px) {
+  .container {
+    width: 1024px; }
+  .case .col-md-3 {
+    min-height: 5.3rem; }
+  .case .thumbnail {
+    min-height: 3rem; }
+  .col-md-3 {
+    width: 100% !important; }
+  .col-md-3:nth-child(3) {
+    width: 100% !important; }
+  .col-md-3:nth-child(4) {
+    width: 100% !important; }
+  .project .col-md-3 {
+    width: 50% !important; }
+  .col-md-3 {
+    width: 25% !important; }
+  .case .col-md-3:nth-child(3) {
+    width: 50% !important; }
+  .case .col-md-3:nth-child(4) {
+    width: 50% !important; }
+  .project .col-md-3 {
+    width: 25% !important; }
+  .project .col-md-3:nth-child(3) {
+    width: 25% !important; }
+  .project .col-md-3:nth-child(4) {
+    width: 25% !important; }
+  .case .col-md-3 {
+    min-height: 5.3rem; }
+  .case .thumbnail {
+    min-height: 3rem; } }
+
+@media (min-width: 1638px) {
+  .container {
+    width: 1496px; } }

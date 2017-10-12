@@ -1,0 +1,1022 @@
+/*产品*/
+.skill{
+	  height: 1rem;
+	  font-family: "Microsoft YaHei";
+	  font-size: 0.18rem;
+	  line-height: 1rem;
+	  font-weight: 300;
+	  text-align: center;
+	  color: #ffffff;
+	   background-color: #434343;
+}
+.banner{
+	padding-top: 1.1rem;
+	width:100%;
+	background:url("../images/banner_common.png")center/cover no-repeat;
+	.container{
+		padding-left:1rem!important;
+	}
+	h1{
+		  font-size: 0.5rem;
+		  text-align: left;
+		  color: #ffffff;
+		  margin-top: 1.43rem;
+	}
+	h4{
+		  font-size: 0.46rem;
+		  letter-spacing: 0.012rem;
+		  text-align: left;
+		  color: #ffffff;
+		  margin-bottom: 1.05rem;
+	}
+	.border{
+		  width: 0.6rem;
+		  height: 0.04rem;
+		  background-color: #ffffff;
+		  margin:0.4rem 0;
+	}
+}
+
+.case-detail{
+	padding-top:0.3rem;
+	.container{
+		/*width: 14.96rem;*/
+		padding: 0 0.24rem!important;
+		box-shadow: 0.01rem 0.02rem 1rem 0.05rem #888888;
+	margin-bottom: 1.44rem;
+
+	}
+
+	.nav > li > a {
+		border:none;
+		text-align: center!important;
+		 font-size: 0.2rem;
+		  line-height: 1.4;
+		  color: #383636;
+		  padding-bottom: 0.3rem;
+		  font-weight: bold;
+	}
+	.nav > li > a:hover,.nav > li > a.active{
+		 color: #12bac4!important;
+		 border-bottom: 0.02rem solid #12bac4!important;
+	}
+
+    .nav-tabs{
+    	width: 100%;
+    	display: flex;
+    	justify-content: space-between;
+    	border-bottom: 0;
+    	margin-bottom: 0.91rem;
+    	li{
+    		width: auto;
+    		background: url("../images/button.png")center/contain no-repeat;
+    		a{
+    			  font-family: "Microsoft YaHei";
+				   font-size: 0.2rem;
+				  line-height: 1.4;
+				  text-align: justify;
+				  color: #383636;
+    		}
+    	}
+    	li:hover{
+    		background: url("../images/case-tab.png")center/contain no-repeat;
+
+    	}
+
+    }
+    	.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+    		border-top:none!important;
+    	}
+    	.nav-tabs>li>a:hover{
+    		border-top:none!important;
+		   text-align: center;
+			color: #fff;
+    	}
+
+        .border{
+    		position: relative;
+        	border: solid 0.01rem #afacac;
+            display: block;
+            text-decoration: none;
+        }
+    	.col-md-4{
+    		margin-bottom: 0.03rem;
+    		cursor: pointer;
+    		margin-bottom: 0.25rem;
+    	}
+    	.thumbnail{
+    		padding:0!important;
+            padding-bottom: 0.2rem!important;
+    		border:0;
+    		margin: 0;
+    		.top{
+    			display: flex;
+    			justify-content: space-between;
+    			margin-bottom: 0.38rem;
+                padding:0 0.24rem;
+    		}
+    		.left{
+    			position: relative;
+    			padding: 0 0 0.1rem 0;
+    			border-bottom: 0.01rem solid #b5b5b5;
+    		}
+    		.right{
+    			display: flex;
+    			align-items: center;
+    			p{
+    			  font-size: 0.4rem;
+				  line-height: 0.71;
+				  text-align: center;
+				  color: #12bac4;
+    			}
+    			p:nth-child(1){
+    				font-size: 0.28rem;
+    			}
+    		}
+    		.xian{
+    			position: absolute;
+    			left:0;
+    			bottom: -0.01rem;
+    			width: 0.4rem;
+				height: 0.04rem;
+				margin:0;
+				background-color: #12bac4;
+    		}
+    		&.active{
+    			background-color: #ffffff;
+  				box-shadow: 0 0 0.16rem 0 #e7eaec;
+  				.xian{
+					background-color: #12bac4;
+  				}
+    		}
+    		h3{
+    			  font-family: "Microsoft YaHei";
+				  font-size: 0.24rem;
+				  line-height: 1.18;
+				  color: #151515;
+    		}
+
+    		p{
+    			  font-family: "Microsoft YaHei";
+				    font-size: 0.16rem;
+				  line-height: 1.76;
+				  text-align: justify;
+				  color: #242424;
+    		}
+    		.detail{
+    			display: flex;
+    		}
+    		.detail p:nth-child(1){
+    			  font-size: 0.18rem;
+    		}
+    		.caption{
+    			padding: 0.48rem 0.3rem 0.24rem 0.3rem!important;
+    		}
+    		img{
+    			width: 100%;
+    		}
+    		
+    	}
+    		.button{
+    			margin-top: 0.4rem;  
+    			display: flex;
+    			justify-content: center;
+    		}
+    		button{   
+    			      padding:0.2rem 0.9rem;
+	    			  border-radius:0.28rem;
+					  background-color: #12bac4;
+					  color: #fff;
+					  margin:0 auto;
+
+    		}
+    			   	.btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default ,.btn-default.focus, .btn-default:focus,.btn-default:hover{
+               background-color: #12bac4;
+			  color: #fff;
+			  border-color: #12bac4;
+              outline:none;
+
+
+	   	}
+
+
+}
+.navigate{
+	margin-top: 0.56rem;
+	/*.container{
+		width: 14.96rem;
+
+	}*/
+	.breadcrumb{
+		background: #fff;
+	}
+}
+
+/*案例*/
+
+.case{
+		.col-md-4{
+    		padding:0.1rem;
+    		margin-bottom: 0.03rem;
+    		cursor: pointer;	
+    	}
+
+    	.thumbnail{
+    		border:0;
+    		margin: 0;
+    		.xian{
+    			position: absolute;
+    			left:0.19rem;
+    			bottom: -0.04rem;
+    			width: 1.79rem;
+				height: 0.03rem;
+				margin:0;
+				display: none;
+    		}
+    		&.active{
+    			background-color: #ffffff;
+  				box-shadow: 0 0 0.16rem 0 #e7eaec;
+  				.xian{
+					background-color: #12bac4;
+					display: block;
+  				}
+    		}
+    		p{
+    			  font-family: "Microsoft YaHei";
+				  font-size: 0.14rem;
+				  font-weight: 300;
+				  text-align: justify;
+				  color: #231815;
+    		}
+    			.caption{
+    			padding: 0.4rem 0.3rem 0.24rem 0.3rem;
+    		}
+    		
+    	}
+    	.pager li > a, .pager li > span {
+    		height: 100%!important;
+    		min-width: 0.3rem!important;
+    		min-height: 0.3rem!important;
+           line-height: 0.3rem!important;
+            display: none!important;
+    	}
+    	.pager li> a,.pager li > a {
+    		border:0.01rem solid #fff!important;
+      	   padding: 0 0.25rem!important;
+        &:hover{
+           padding: 0 0.25rem!important;
+           border:0.01rem solid #fff!important;
+        }
+      }
+
+     .pager .previous > a,.pager .next > a {
+     	border:none!important;
+      	padding: 0 0.25rem!important;
+        display: block!important;
+        line-height: 0.3rem;
+      }
+      .pager li.previous > a:focus,.pager li.previous > a:hover,.pager li.previous.active a ,.pager li.next > a:focus,.pager li.next > a:hover,.pager li.next.active a {
+      	background: none!important;
+      	border:none!important;
+      }
+    	.pager{
+    		margin-top: 1.35rem;
+    		margin-bottom: 1rem;
+    		display: flex;
+    		justify-content: center;
+    	}
+
+    	.pager li>a, .pager li>span{
+    		border-radius: 50%;
+    		width: 0.27rem;
+    		height: 0.27rem;
+    		padding: 0;
+    		display: flex;
+    		align-items: center;
+    		justify-content: center;
+    		border:0;
+    		font-family: "Microsoft YaHei";
+		    font-size: 0.14rem;
+		    font-weight: 300;
+		   line-height: 1.14;
+		   text-align: left;
+		   color: #000000;
+    	}
+    	.pager .previous>a ,.pager .next>a {
+    		padding:0.05rem 0.14rem;
+    		width: auto;
+    		border-radius: 0.15rem;
+    	}
+    	.pager .go a{
+          padding:0!important;
+          &:hover{
+          	padding:0!important;
+          }
+    	}
+    	.pager .go{
+    		
+    		display: flex;
+    		border-radius: 0.15rem;
+    		border: solid 0.01rem #959394;
+    		justify-content: space-between;
+    		padding-right: 0.15rem;
+            display: none;
+    		 &:hover{
+    			border: solid 0.01rem #1b78da;
+
+    		}
+    		 input{
+    		 	padding-left: 0.07rem;
+    		 	width: 1rem;
+    		 	border:0;
+    		 	background: none;
+    		 	outline: none;
+               display: none;
+               height: 100%;
+
+
+    		 }
+    	}
+    	.pager .go>a{
+           width: auto;
+           border-radius: 0.15rem;
+    	   border-left: solid 0.01rem #959394;
+    	   margin: 0;
+    	}
+    	.previous{
+    		margin-right: 0.2rem;
+    		border-radius: 0.15rem;
+    		border: solid 0.01rem #959394;
+    		&:hover{
+    			border: solid 0.01rem #1b78da;
+
+    		}
+    	}
+    	.next{
+    		  border-radius: 0.15rem;
+    		margin-left: 0.2rem;
+    		border: solid 0.01rem #959394;
+    		margin-right: 0.26rem;
+    		&:hover{
+    			border: solid 0.01rem #1b78da;
+
+    		}
+
+    	}
+    	.pager li>a:focus, .pager li>a:hover ,.pager li.active a{
+    		background: none;
+    		 border: solid 0.01rem #1b78da;
+    		 	color:#1b78da;
+    	}
+    	.pager .go>a:hover,.pager .go>a:focus,.pager .go.active a{
+           border-radius: 0.15rem;
+    	   border-left: solid 0.01rem #1b78da;
+    	   margin: 0;
+    	   border-right: 0;
+    	   border-top: 0;
+    	   border-bottom:  0;
+    	}
+}
+
+/*咨询*/
+.news{
+	.container{
+
+	padding-top: 0.4rem!important;
+	}
+
+	.caption{
+		display: flex;
+		justify-content: space-between;
+		.date{
+			border-right: 0.01rem solid #c3c1c1;
+			padding-right: 0.27rem;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+		}
+		.day{
+			  font-size: 0.48rem;
+			  text-align: justify;
+			  color: #545454;
+		}
+		.year{
+			  font-size: 0.16rem;
+			  text-align: justify;
+			  color: #1f1e1e;
+		}
+		h3{
+			  font-size: 0.22rem;
+			  text-align: justify;
+			  color: #111010;
+		}
+		p{
+			  font-size: 0.14rem;
+			  line-height: 1.86;
+			  text-align: justify;
+			  color: #404040;
+		}
+		h3,p{
+			margin:0;
+		}
+		.message{
+			padding-left: 0.2rem;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+		}
+	
+	}
+}
+
+
+/*新闻详情*/
+.news_details{
+	.container{
+		padding: 0.8rem!important;
+	}
+	 blockquote .small:before, blockquote footer:before, blockquote small:before{
+      content:'';
+    }
+    blockquote{
+      border:0;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      padding-bottom: 0.4rem;
+          p{
+            font-family: "Microsoft YaHei";
+            font-size: 0.24rem;
+            font-weight: bold;
+            text-align: center;
+            color: #494949;
+          }
+          .time{
+          	font-size: 0.16rem;
+          }
+    }
+    .row{
+      margin: 0;
+        
+    }
+    .thumbnail{
+      border-radius: 0;
+      border:0;
+      padding: 0; 
+      img{
+        margin-bottom: 0.9rem;
+      }
+    }
+    .col-sm-12{
+      padding: 0;
+    }
+    .caption{
+      padding:30px 0 0;
+      margin-bottom: 0.39rem;
+      p{
+          font-family: "Microsoft YaHei";
+          font-size: 0.14rem;
+		  line-height: 2;
+		  text-align: justify;
+		  color: #666666;
+      }
+    }
+    img{
+    	width: 80%!important;
+    }
+    nav{
+      width: 100%;
+     margin: 0;
+     padding: 0;
+    }
+    .icon-yousanjiao:before {
+    color:#959595;
+}
+    .icon-zuosanjiao:before {
+    color:#959595;
+}
+.pager{
+      padding: 0.3rem 0;
+      margin:0;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      background:  #eeeeee;
+      .previous,.next{
+        display: flex;
+        align-items: center;
+      }
+
+    li{
+         display: flex;
+        justify-content: flex-start;
+        border:none;
+        a{
+        	width: auto!important;
+         font-family: "Microsoft YaHei";
+        font-size: 0.18rem;
+        text-align: justify;
+          color: #353434;
+        background:none;
+        }
+        span{
+        	background: none;
+        	 border: solid 0.01rem #959595!important;
+        }
+    }
+    .previous:hover ,.next:hover{
+    	border:none;
+    	background: none;
+    }
+    li:nth-child(2){
+      justify-content: flex-end;
+    }
+    li:nth-child(1) a:nth-child(1),li:nth-child(2) a:nth-child(2){
+
+        border-radius: 50%;
+        padding: 0;
+    }
+
+    li:nth-child(1) a:nth-child(1){
+      margin-right: 14px;
+    }
+    li:nth-child(2) a:nth-child(1){
+      margin-right: 14px;
+    }
+  }
+  .pager li>a, .pager li>span{
+    padding:0;
+    border:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .iconfont{
+    font-size:5px;
+
+  }
+  .pager li>a:focus, .pager li>a:hover{
+    border:none;
+  }
+  
+  .pager li > a:focus, .pager li > a:hover, .pager li.active a {
+  	  color: #09b7c1;
+
+  }
+}
+
+
+/*案例详情*/
+
+.case_details{
+	margin-bottom: 1rem;
+	.container{
+		padding: 0.6rem 0.4rem 0!important;
+		box-shadow: 0.01rem 0.02rem 1rem 0.05rem #888888;
+
+	}
+	.container{
+		padding-bottom: 1rem!important;
+	}
+    blockquote{
+    	padding: 0;
+    	border-color:#12bac4;
+    	padding-left: 0.14rem;
+    }
+    p{
+    	  font-size: 0.16rem;
+		  line-height: 2.13;
+		  text-align: left;
+		  color: #434445;
+		  margin-left: 0.33rem;
+		  margin-bottom: 0.37rem;
+    }
+    p.artitle{
+    	text-indent: 2em;
+    	 margin-bottom: 0.87rem;
+    }
+	.breadcrumb{
+		background: none!important;
+		padding: 0;
+		li a{
+			 font-size: 0.18rem;
+			 font-weight: bold!important;
+			  font-weight: 300;
+			  text-align: left;
+			  color: #434445;
+
+		}
+		li.active{
+			font-size: 0.18rem;
+			 font-weight: normal!important;
+			  font-weight: 300;
+			  text-align: left;
+			  color: #434445;
+		}
+	}
+	.show img{
+		width: 100%;
+		margin-bottom: 0.42rem;
+	}
+}
+
+
+
+.swiper-container {
+        width: 100%;
+        height: 2.67rem;
+        margin: 0.2rem auto;
+        margin-top:1.1rem;
+
+    }
+    .swiper-wrapper{
+
+    transform: translate3d(2.18.667rem, 0, 0);
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 0.18rem;
+        background: #fff;
+        width: 33.333%;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        background: red;
+    }
+
+    .append-buttons {
+        text-align: center;
+        margin-top: 0.2rem;
+    }
+    .append-buttons a {
+        display: inline-block;
+        border: 0.01rem solid #007aff;
+        color: #007aff;
+        text-decoration: none;
+        padding: 0.04rem 0.1rem;
+        border-radius: 0.04rem;
+        margin: 0 0.1rem;
+        font-size: 0.13rem;
+    }
+
+/*关于我们*/
+
+.about{
+	.container{	
+		padding: 0!important;
+		background: #F4F2F2;
+	}
+	.media{
+		width: 100%;
+		background: #fff;
+	}
+	.media-left{
+		width: 40%;
+		padding: 0!important;
+
+	}
+	.media-object{
+		width: 100%;
+	}
+	.media-body{
+		padding: 0.97rem 0.93rem 0.3rem 0.93rem;
+	}
+	.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover ,.btn-default:hover {
+		    background-color: #12bac4;
+		    border-color: #12bac4;
+		    color: #fff;
+            outline: none;
+	}
+	h3{
+		  font-size: 0.3rem;
+		  line-height: 1;
+		  color: #151515;
+		  padding-bottom: 0.21rem;
+		  margin:0;
+	}
+	.blue{
+		  width: 0.4rem;
+		  height:0.04rem;
+		  background-color: #12bac4;
+		  margin-top: -0.04rem;
+	}
+	.border{
+		  width: 2rem;
+		  height: 0.01rem;
+		  background-color: #b5b5b5;
+	}
+	h4{
+		  font-size: 0.22rem;
+		  line-height: 1.18;
+		  text-align: justify;
+		  color: #0e0e0e;
+		  margin-bottom: 0.84rem;
+	}
+	p{
+		  margin: 0;
+		  font-size: 0.14rem;
+		  line-height: 2.14;
+		  text-align: justify;
+		  color: #242424;
+	}
+	#map{
+	height: 100%;
+	width: 100%;
+}
+.about_us{
+	margin-top: 0.15rem;
+	display: flex;
+	justify-content: space-between;
+	.media-heading{
+		border-bottom: 0.01rem solid #b5b5b5;
+	}
+	.blue{
+		margin-bottom: 0.8rem;
+	}
+	.left,.right{
+		width: 50%;
+	}
+	
+	.media-left{
+
+				width: auto!important;	
+	}
+	.media-object{
+
+		width: 1.71rem;
+		height: 1.67rem;
+		margin-right: 0.46rem;
+		margin-bottom: 1.8rem;
+	}
+    .media-body{
+       overflow: visible!important;
+       width: 100%;
+    }
+	.media-body .media-object{
+		width: 0.42rem;
+		height: 0.42rem;
+		margin-right: 0.3rem;
+		margin-bottom: 0;	
+	}
+	.media-body{
+		padding:0!important;
+	}
+	ul{
+		margin:0;
+	}
+	ul li{
+		padding: 1.1rem 0.9rem 0 0.7rem;
+	}
+	.media-body li{
+		padding: 0!important;
+		h4{
+			margin:0!important;
+		}
+	}
+	.media-body .media-body .media-heading{
+		  font-size: 0.18rem;
+		  font-weight: 300;
+		  line-height: 1.56;
+		  text-align: left;
+		  color: #161616;
+		  border:none!important;
+		  &.phone{
+		  	  font-size: 0.32rem;
+			  text-align: left;
+			  color: #12bac4;
+		  }
+	}
+}
+}
+/*服务*/
+.servy{
+	&.banner h1 ,&.banner h4{
+		text-align: left;
+	}
+	p{
+		margin-top: 0.67rem;
+		margin-bottom: 1.2rem;
+	}
+	.border{
+		border:none;
+	}
+}
+
+
+/*底部	*/
+footer{
+	  background-color: #f6f6f6;
+	  padding: 0.3rem;
+	.row{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.about,.code{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.logo{
+		
+		p{
+			  margin-top: 0.24rem;
+			  line-height: 3.86;
+			  text-align: center;
+			  color: #171717;
+		}
+	}
+	.thumbnail{
+		margin-top: 0.3rem;
+		border:none;
+		background: none;
+	}
+	dl{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		margin-right: 1rem;
+	}
+	dt{
+		  font-weight: 300;
+		  line-height: 3.86;
+		  letter-spacing: 0.004rem;
+		  text-align: center;
+		  color: #000000;
+	}
+	.about dl dd:nth-child(2){
+		margin-top: 0.32rem;
+		margin-bottom: 0.2rem;
+	}
+	.code p{
+		margin-top: 0.16rem;
+	}
+
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    border:none;
+}
+
+.other{
+    width: 100%;
+    .container{
+        width: 100%;
+        padding-top: 2.28rem;
+        padding-bottom: 1.6rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        p{
+              font-size: 0.34rem;
+              text-align: left;
+              color: #666363;
+              margin-top:0.3rem;
+              margin-bottom: 0.42rem;
+        }
+        img{
+            width: 80%;
+        }
+        button{
+               background-color: #12bac4;
+              font-size: 0.26rem;
+              text-align: left;
+              color: #ffffff;
+              padding:0.2rem 0.8rem;
+        }
+        .btn-default:active:focus{
+              background-color: #12bac4;
+              border-color: #12bac4;
+              color: #fff;
+        }
+
+    }
+}
+@media (min-width:300px){
+    .row{
+       flex-direction: column;
+       dl:nth-child(3){
+        margin-right: 0;
+       }
+    }
+    .caption{
+        padding: 0!important;
+    }
+    .caption p{
+        margin:0!important;
+    }
+    .logo,.code,.about{
+        margin-right: 0!important;
+    }
+    .thumbnail{
+        margin-bottom: 0;
+    }
+    .logo{
+        margin-top: 1rem;
+    }
+    .about_us .right .bottom{
+        display: flex;
+        flex-direction: column;
+        .media-object{
+            margin-bottom: 0.3rem;
+        }
+        .media{
+            margin-top: 0;
+            flex-direction: row;
+        }
+    }
+     button{   
+            padding: 0.1rem 0.3rem;
+        }
+
+}
+
+@media (max-width: 600px){
+    *{
+        box-sizing: border-box;
+    }
+
+    .case-detail .container {
+
+            width: 100%!important;
+            box-sizing: border-box;
+        }
+        .navigate .container {
+            width: 100%!important;
+        }
+        .row{
+            margin:0;
+        }
+        nav,.col-md-4{
+            width: 100%;
+            padding: 0!important;
+            box-sizing: border-box;
+            margin-bottom: 0.5rem!important;
+            padding: 0;
+        }
+        .caption{
+            width: 100%;
+
+        }
+
+
+        
+
+}
+@media (min-width:768px){
+     
+         .case .pager li > a, .case .pager li > span {
+            display: block!important;
+        }
+        .pager .go{
+            display: flex!important;
+            input{
+                  display: block!important; 
+            }
+        }
+
+
+
+}
+@media (min-width:900px){
+  .row{
+       flex-direction: row;
+    }
+    .logo{
+        margin-top: 0;
+        margin-right: 1rem!important;
+    }
+    .code{
+        margin-left: 1rem;
+    }
+     .banner .container{
+        padding-left:2.6rem!important;
+    }
+
+}
+@media (min-width:1638px){
+                .about_us .right .bottom{
+        display: flex;
+        flex-direction: row;
+        .media-left .media-object{
+            margin-bottom: 1.8rem;
+        }
+        .media-body .media-left .media-object{
+             margin-bottom: 0.3rem;
+        }
+        .media{
+            margin-top: 0;
+            flex-direction: row;
+        }
+    }
+}
