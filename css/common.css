@@ -19,8 +19,8 @@ header {
   display: block; }
 
 .menu {
-  width: 0.35rem;
-  height: 0.35rem;
+  width: 0.5rem;
+  height: 0.5rem;
   background: url("../images/menu.png") center/cover no-repeat;
   float: right;
   margin-top: 0.3rem;
@@ -79,7 +79,7 @@ header {
   margin-left: 0.05rem; }
 
 .navbar .media-object {
-  width: 1.2rem; }
+  width: 2.23rem; }
 
 .navbar-brand {
   padding-top: 0.4rem; }
